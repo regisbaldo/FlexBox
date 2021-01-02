@@ -1,0 +1,73 @@
+
+/* Css da página em si */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+}
+.item {
+    margin: 5px;
+    background: turquoise;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Css de Flex Container */
+
+.flex {
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.colum{
+    flex-direction: column;
+}
+.colum-reverse{
+    flex-direction: column-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.no-wrap{
+    flex-wrap: nowrap;
+
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+
+}
+
+/* Css de Flex Items */
+
+.flex-item-1 {
+    flex: 1;
+}
+
+.flex-item-2 {
+    flex: 2;
+}
