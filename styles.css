@@ -29,6 +29,10 @@ body {
     font-size: 1.5em;
 }
 
+.big-container{
+    height: 150px;
+}
+
 /* Css de Flex Container */
 
 .flex {
@@ -60,6 +64,42 @@ body {
 .wrap-reverse{
     flex-wrap: wrap-reverse;
 
+}
+.row-wrap{
+    flex-flow: row wrap;
+}
+.column-wrap{
+    flex-flow: column wrap;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.align-stretch{
+    align-items: stretch;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-baseline{
+    align-items: baseline;
 }
 
 /* Css de Flex Items */
