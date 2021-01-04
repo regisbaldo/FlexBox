@@ -5,6 +5,7 @@
     max-width: 400px;
     margin: 0 auto;
     border: 1px solid #ccc;
+    
 }
 
 h1 {
@@ -101,8 +102,37 @@ body {
 .align-baseline{
     align-items: baseline;
 }
-
+.align-content-start{
+    align-content: flex-start;
+}
+.align-content-end{
+    align-content: flex-end;
+}
+.align-content-center{
+    align-content: center;
+}
+.align-content-between{
+    align-content: space-between;
+}
+.align-content-around{
+    align-content: space-around;
+}
 /* Css de Flex Items */
+
+.flex-grow-0{
+    flex-grow: 0;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-grow-2{
+    flex-grow: 2;
+    
+}
+.flex-grow-3{
+    flex-grow: 3;
+    
+}
 
 .flex-item-1 {
     flex: 1;
